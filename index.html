@@ -7,21 +7,42 @@
 
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-    
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
 </head>
 <body> 
     <header>
-        <h3 id = "view-highscores">View Highscores</h3>
-        <h3 id = "time-left">Time Left</h3>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <h3 class = "col-sm-5" id = "view-highscores">View Highscores</h3>
+            <h3 class = "col-sm-5" id = "time-left" value = "60"></h3>
+        </div>
     </header>
     <body>
         <main>
-            <section id = "quiz">
+            <section>
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8" id = "quiz">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper tempor sollicitudin. Quisque auctor fermentum pharetra. Donec tempus, lacus id euismod vestibulum, est est tempus sem, at sollicitudin sapien sem non ex. Nam vehicula nec neque id faucibus. Maecenas nisi mi, luctus vel ex id, tempor accumsan sem. Aliquam sodales facilisis eros, et tempus felis luctus eu. Quisque laoreet, velit non pulvinar iaculis, lectus velit fringilla magna, et rutrum nisl nisl eu leo. Morbi congue eleifend posuere. Sed malesuada aliquet massa. Phasellus id facilisis augue, sit amet dapibus erat.</p>
 
+                        <p>Nam sit amet pretium elit. Praesent volutpat facilisis eros. Vivamus in nunc dictum quam fringilla suscipit. Nulla facilisi. Mauris vel sapien ac enim viverra consequat. Fusce orci est, pretium nec efficitur efficitur, aliquet et urna. Vestibulum maximus vitae dui eu efficitur. Proin magna enim, lacinia a aliquam in, blandit aliquet lacus. Sed consectetur tempus erat tempor luctus. Nulla eleifend mattis odio, at euismod massa malesuada at. Morbi viverra sodales ipsum in facilisis.</p>
+                            
+                        <p>Donec scelerisque magna sit amet enim viverra ultricies. Sed faucibus quam sit amet tortor auctor mollis. Maecenas feugiat justo turpis, non pharetra enim dignissim eget. Mauris a eleifend sem, ut pretium mi. Cras eu venenatis nulla, ac sagittis ligula. In condimentum risus justo, ut consectetur neque ultrices vel. Etiam lorem eros, posuere ac fermentum in, auctor viverra turpis. Quisque non leo tempus, condimentum ligula eu, tincidunt quam.</p>
+                            
+                        <p>In viverra massa eget dolor accumsan dignissim. Proin pellentesque sagittis nulla sit amet bibendum. Praesent eu ligula vel lectus mollis consectetur vel eu odio. Donec auctor justo et auctor tincidunt. Nam ullamcorper, diam in posuere euismod, arcu mi maximus massa, vel ullamcorper dui ipsum at erat. Morbi elit ipsum, vestibulum et sapien vel, porta dictum ante. Nunc vestibulum dictum metus, eget finibus felis pulvinar sit amet. Pellentesque vel convallis eros. Etiam in urna in ipsum congue auctor. Phasellus eget elit massa.</p>
+                            
+                        <p>Sed dignissim metus a rhoncus placerat. Nam efficitur lorem vitae suscipit convallis. Curabitur quis mauris faucibus, vehicula erat consectetur, euismod leo. Ut sapien magna, hendrerit mattis est at, placerat convallis libero. Nulla aliquam est sed tortor molestie bibendum. Sed euismod pharetra nisi ut accumsan. In ut turpis rhoncus, consequat quam vitae, feugiat felis.</p>
+                        
+                        <button id = "begin-btn"><span>Begin Quiz</span></button>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
             </section>
         </main>
+        <script src="script.js" type = "text/javascript"></script>
     </body>
 </body>
 </html>

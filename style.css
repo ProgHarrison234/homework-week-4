@@ -3,7 +3,32 @@
 }
 
 header {
-    margin: 0;
     padding: 0;
+}
+
+#view-highscores {
     text-align: left;
+    color: black;
+}
+
+#view-highscores:hover {
+    color: blueviolet;
+}
+
+#time-left {
+    text-align: right;
+    color: black;
+}
+
+#time-left:hover {
+    color: blueviolet;
+}
+
+#quiz {
+    border: black 5px solid;
+}
+
+#begin-btn {
+    color: white;
+    background-color: blueviolet;
 }
